@@ -1,0 +1,6 @@
+D:\Projects\EPAM\NET.W.2017.Shakhrai.13\CollectionQueue\bin\Debug\CollectionQueue.dll
+D:\Projects\EPAM\NET.W.2017.Shakhrai.13\CollectionQueue\bin\Debug\CollectionQueue.pdb
+D:\Projects\EPAM\NET.W.2017.Shakhrai.13\CollectionQueue\obj\Debug\CollectionQueue.csprojResolveAssemblyReference.cache
+D:\Projects\EPAM\NET.W.2017.Shakhrai.13\CollectionQueue\obj\Debug\CollectionQueue.csproj.CoreCompileInputs.cache
+D:\Projects\EPAM\NET.W.2017.Shakhrai.13\CollectionQueue\obj\Debug\CollectionQueue.dll
+D:\Projects\EPAM\NET.W.2017.Shakhrai.13\CollectionQueue\obj\Debug\CollectionQueue.pdb
