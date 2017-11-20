@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionQueueTests", "Col
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionMatrix", "CollectionMatrix\CollectionMatrix.csproj", "{45FD2177-1BF4-403E-B0F0-BC4A373136E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionBinarySearchTree", "CollectionBinarySearchTree\CollectionBinarySearchTree.csproj", "{388B10DA-A090-43CE-9C5A-057BF9597875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionBinarySearchTreeTests", "CollectionBinarySearchTreeTests\CollectionBinarySearchTreeTests.csproj", "{B5F50BD7-A9C7-47A0-BB0D-0D6EE907EF66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{45FD2177-1BF4-403E-B0F0-BC4A373136E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45FD2177-1BF4-403E-B0F0-BC4A373136E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45FD2177-1BF4-403E-B0F0-BC4A373136E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{388B10DA-A090-43CE-9C5A-057BF9597875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388B10DA-A090-43CE-9C5A-057BF9597875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388B10DA-A090-43CE-9C5A-057BF9597875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388B10DA-A090-43CE-9C5A-057BF9597875}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F50BD7-A9C7-47A0-BB0D-0D6EE907EF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F50BD7-A9C7-47A0-BB0D-0D6EE907EF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F50BD7-A9C7-47A0-BB0D-0D6EE907EF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F50BD7-A9C7-47A0-BB0D-0D6EE907EF66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
