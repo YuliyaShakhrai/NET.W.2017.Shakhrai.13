@@ -1,6 +1,6 @@
 D:\Projects\EPAM\NET.W.2017.Shakhrai.13\CollectionBinarySearchTree\bin\Debug\CollectionBinarySearchTree.dll
 D:\Projects\EPAM\NET.W.2017.Shakhrai.13\CollectionBinarySearchTree\bin\Debug\CollectionBinarySearchTree.pdb
-D:\Projects\EPAM\NET.W.2017.Shakhrai.13\CollectionBinarySearchTree\obj\Debug\CollectionBinarySearchTree.csprojResolveAssemblyReference.cache
 D:\Projects\EPAM\NET.W.2017.Shakhrai.13\CollectionBinarySearchTree\obj\Debug\CollectionBinarySearchTree.csproj.CoreCompileInputs.cache
 D:\Projects\EPAM\NET.W.2017.Shakhrai.13\CollectionBinarySearchTree\obj\Debug\CollectionBinarySearchTree.dll
 D:\Projects\EPAM\NET.W.2017.Shakhrai.13\CollectionBinarySearchTree\obj\Debug\CollectionBinarySearchTree.pdb
+D:\Projects\EPAM\NET.W.2017.Shakhrai.13\CollectionBinarySearchTree\obj\Debug\CollectionBinarySearchTree.csprojResolveAssemblyReference.cache

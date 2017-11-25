@@ -1,13 +1,10 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CollectionBinarySearchTree
 {
-    public class BinarySearchTree<T> : IEnumerable<T> where T : IComparable<T>
+    public class BinarySearchTree<T> : IEnumerable<T>
     {
         #region Private fields
 
@@ -20,7 +17,7 @@ namespace CollectionBinarySearchTree
         #region Constructors
 
         /// <summary>
-        /// Creates a new instance of a Binary Tree
+        /// Creates a new instance of a Binary Tree with default comparer
         /// </summary>
         public BinarySearchTree()
         {
@@ -32,11 +29,36 @@ namespace CollectionBinarySearchTree
         /// <summary>
         /// Creates a new instance of a Binary Tree with initialized comparer
         /// </summary>
-        public BinarySearchTree(IComparer<T> comparer)
+        public BinarySearchTree(IComparer<T> comparer = null)
         {
             _head = null;
             _size = 0;
+            if (comparer == null)
+            {
+                _comparer = Comparer<T>.Default;
+            }
+
             _comparer = comparer;
+        }
+
+        /// <summary>
+        /// Creates a new instance of a Binary Tree with specified elements and with specified comparer
+        /// </summary>
+        public BinarySearchTree(IEnumerable<T> items, IComparer<T> comparer = null)
+        {
+            if (comparer == null)
+            {
+                _comparer = Comparer<T>.Default;
+            }
+            else
+            {
+                _comparer = comparer;
+            }
+
+            foreach (var item in items)
+            {
+                this.Insert(item);
+            }
         }
 
         #endregion
@@ -171,6 +193,26 @@ namespace CollectionBinarySearchTree
             }
 
             return null;
+        }
+
+        /// <summary>
+        /// Sets tree to zero
+        /// </summary>
+        public void Clear()
+        {
+            _head = null;
+            _size = 0;
+        }
+
+        /// <summary>
+        /// Removes all the elements stored in the tree
+        /// </summary>
+        public void MemberwiseClear()
+        {
+            foreach (T item in this.PostOrder())
+            {
+                this.Remove(item);
+            }
         }
 
         /// <summary>

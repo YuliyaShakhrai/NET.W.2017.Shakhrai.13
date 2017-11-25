@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CollectionBinarySearchTree
+﻿namespace CollectionBinarySearchTree
 {
     /// <summary>
     /// A Binary Tree node that holds an element and references to other tree nodes
     /// </summary>
-    public class Node<T> where T : IComparable<T>
+    public class Node<T>
     {
         #region Private fields
 
